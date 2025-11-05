@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact — FoodZone</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            /* фон для всей страницы */
+            background-image: url('Казан-кебаб б.jpg'); /* путь к твоему фото */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #333;
+        }
+        header {
+            background-color: rgba(255, 123, 0, 0.9);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            background-color: rgba(255, 240, 224, 0.9);
+            padding: 15px;
+        }
+        nav a {
+            color: #ff7b00;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 15px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            max-width: 600px;
+            margin: 50px auto;
+            background-color: rgba(255, 248, 240, 0.85); /* полупрозрачный фон */
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+        }
+        h2 {
+            text-align: center;
+            color: #ff7b00;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        .contact-info {
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .phone {
+            margin-top: 10px;
+            color: #ff7b00;
+        }
+        input[type="text"], input[type="tel"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ffd3a1;
+            border-radius: 6px;
+            font-size: 16px;
+            margin-top: 5px;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #ff7b00;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            margin-top: 15px;
+            text-align: center;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #ff9c33;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="content">
+        <h2>Get in Touch 🍽</h2>
+        <p>Welcome to Mirzaahmad's FoodZone! We are passionate about delivering the most delicious and fresh meals to our customers. Feel free to reach out to us for orders, questions, or feedback.</p>
+        
+        <!-- Место для телефона -->
+        <div class="contact-info">
+            Our phone number:
+            <div class="phone">+998 97 443 76 16 </div>
+        </div>
+
+        <!-- Форма для имени и телефона, если хочешь -->
+        <form>
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder="Enter your name">
+
+            <label for="phone">Your Phone</label>
+            <input type="tel" id="phone" placeholder="+998 90 123 45 67">
+
+            <button type="submit" class="btn">Send</button>
+        </form>
+    </div>
+</body>
+</html>

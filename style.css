@@ -1,0 +1,106 @@
+/* Основные стили сайта */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('uzbek-pilaf.jpg'); /* вставь своё фото здесь */
+    background-size: cover;       /* изображение занимает весь экран */
+    background-position: center;  /* центр изображения */
+    background-repeat: no-repeat; /* не повторять */
+    color: #333;
+}
+
+/* Полупрозрачная подложка для текста, чтобы его было видно */
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+}
+
+/* Заголовки */
+ h2 {
+    color: #ff7b00;
+    text-align: center;
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+
+/* Навигация */
+nav {
+    text-align: center;
+    background-color: rgba(255, 123, 0, 0.9);
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Меню */
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+      background-image: url('image\ lagman.jpg'); /* путь к твоему фото */
+  background-size: cover; /* чтобы фото полностью покрывало меню */
+  background-position: center; /* чтобы фото было по центру */
+  background-repeat: no-repeat; /* чтобы фото не повторялось */
+  padding: 20px; /* отступы внутри меню */
+}
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px; /* расстояние между пунктами */
+}
+.menu li a {
+  color: white; /* цвет текста меню */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.item {
+    background: white;
+    border: 2px solid #ffd3a1;
+    border-radius: 10px;
+    width: 250px;
+    margin: 15px;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+.item img {
+    width: 100%;
+    border-radius: 8px;
+    height: 160px;
+    object-fit: cover;
+}
+
+.item h3 {
+    margin: 10px 0;
+    color: #ff7b00;
+}
+
+.item p {
+    color: #555;
+    font-size: 14px;
+}
+
+.item span {
+    display: block;
+    margin-top: 8px;
+    font-weight: bold;
+    color: #333;
+}
+ 

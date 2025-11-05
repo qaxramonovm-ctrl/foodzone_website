@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu — FoodZone</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            /* Задний фон для страницы меню */
+            background-image: url('image lagman.jpg'); /* путь к твоему фото */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #333;
+        }
+        header {
+            background-color: rgba(255, 123, 0, 0.9); /* полупрозрачный оранжевый */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            background-color: rgba(255, 240, 224, 0.9); /* полупрозрачный фон меню */
+            padding: 15px;
+        }
+        nav a {
+            color: #ff7b00;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 15px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        h2 {
+            text-align: center;
+            color:white;
+            margin-top: 40px;
+            font-size: 50px;
+        }
+        .menu {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+            background-color: rgba(255, 248, 240, 0.85); /* полупрозрачный фон для блока меню */
+            border-radius: 10px;
+            margin: 20px;
+        }
+        .item {
+            background: white;
+            border: 2px solid #ffd3a1;
+            border-radius: 10px;
+            width: 250px;
+            margin: 15px;
+            text-align: center;
+            padding: 15px;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+        }
+        .item img {
+            width: 100%;
+            border-radius: 8px;
+            height: 160px;
+            object-fit: cover;
+        }
+        .item h3 {
+            margin: 10px 0;
+            color: #ff7b00;
+            font-family:sans-serif;
+        }
+        .item p {
+            color: #1d1c1c;
+            font-size: 14px;
+        }
+        .item span {
+            display: block;
+            margin-top: 8px;
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Our Menu 🍽</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <!-- 🥘 MAIN DISHES -->
+    <h2>🥘 Main Dishes</h2>
+    <div class="menu">
+        <div class="item">
+            <img src="uzbek-pilaf.jpg" alt="Plov">
+            <h3>Plov</h3>
+            <p>Traditional Uzbek rice with beef, carrots, and spices.</p>
+            <span>40,000 UZS</span>
+        </div>
+
+        <div class="item">
+            <img src="360_F_789655358_jfOpJiwgmZXEyuiYd5rCy3ndmRWushHp.jpg" alt="Manti">
+            <h3>Manti</h3>
+            <p>Steamed dumplings with minced beef and onions.</p>
+            <span>30,000 UZS</span>
+        </div>
+
+        <div class="item">
+            <img src="Chicken-Shashlik-Kebab-02.jpg" alt="Shashlik">
+            <h3>Shashlik</h3>
+            <p>Grilled meat skewers cooked over charcoal.</p>
+            <span>25,000 UZS</span>
+        </div>
+
+        <div class="item">
+            <img src="image lagman.jpg" alt="Lagman">
+            <h3>Lagman</h3>
+            <p>Homemade noodles with beef, vegetables, and spices.</p>
+            <span>28,000 UZS</span>
+        </div>
+        <div class="item">
+            <img src="mozzarella-pizza-margherita-FT-RECIPE0621-11fa41ceb1a5465d9036a23da87dd3d4.jpg" alt="Pizza Margherita">
+            <h3>Pizza Margherita</h3>
+            <p>Thin crust pizza with tomato, mozzarella, and basil.</p>
+            <span>45,000 UZS</span>
+        </div>
+        <div class="item">
+            <img src="Без названия.jfif" alt="Pasta">
+            <h3>Pasta</h3>
+            <p>Food made from wheat flour, water, and sometimes eggs.</p>
+            <span>45,000 UZS</span>
+        </div>
+        <div class="item">
+            <img src="Казан-кебаб б.jpg" alt="Qozon kabob">
+            <h3>Qozon kabob</h3>
+            <p>traditional Uzbek meat and potato dish cooked in a large cast-iron pot called a qozon.</p>
+            <span>45,000 UZS</span>
+        </div>
+        <div class="item">
+            <img src="183ce0_3a3bcf40ab8d4a1abeb6d62d30576bd1~mv2.jpg" alt="Mastava">
+            <h3>Mastava </h3>
+            <p>Traditional Uzbek rice soup, usually made with beef or lamb</p>
+            <span>40,000 UZS</span>
+        </div>
+    </div>
+    </div>
+
+    <!-- 🍹 DRINKS -->
+    <h2>🍹 Drinks</h2>
+    <div class="menu">
+        <div class="item">
+            <img src="cola.jfif" alt="Cola">
+            <h3>Coca-Cola</h3>
+            <p>Refreshing fizzy drink served cold.</p>
+            <span>10,000 UZS</span>
+        </div>
+
+        <div class="item">
+            <img src="orange.jfif" alt="Fresh Juice">
+            <h3>Fresh Orange Juice</h3>
+            <p>Natural orange juice made from fresh fruits.</p>
+            <span>15,000 UZS</span>
+        </div>
+
+        <div class="item">
+            <img src="lemonade.jfif" alt="Lemonade">
+            <h3>Homemade Lemonade</h3>
+            <p>Cold lemonade with mint and lemon slices.</p>
+            <span>12,000 UZS</span>
+        </div>
+    </div>
+    <!-- 🍵 TEAS -->
+    <h2>🍵 Teas</h2>
+    <div class="menu">
+        <div class="item">
+            <img src="green tea.jfif" alt="Green Tea">
+            <h3>Green Tea</h3>
+            <p>Traditional green tea with a light aroma.</p>
+            <span>8,000 UZS</span>
+        </div>
+
+        <div class="item">
+            <img src="balck tea.jfif" alt="Black Tea">
+            <h3>Black Tea</h3>
+            <p>Strong black tea served in a teapot.</p>
+            <span>7,000 UZS</span>
+        </div>
+
+        <div class="item">
+            <img src="mint tea.jfif" alt="Mint Tea">
+            <h3>Mint Tea</h3>
+            <p>Hot mint tea with a refreshing herbal taste.</p>
+            <span>9,000 UZS</span>
+        </div>
+    </div>
+
+    <!-- 🍰 DESSERTS -->
+    <h2>🍰 Desserts</h2>
+    <div class="menu">
+        <div class="item">
+            <img src="cheescake.jfif" alt="Cheesecake">
+            <h3>Cheesecake</h3>
+            <p>Creamy cheesecake with strawberry topping.</p>
+            <span>20,000 UZS</span>
+        </div>
+
+        <div class="item">
+            <img src="chocolate cake.jfif" alt="Chocolate Cake">
+            <h3>Chocolate Cake</h3>
+            <p>Rich chocolate sponge with frosting and nuts.</p>
+            <span>22,000 UZS</span>
+        </div>
+
+        <div class="item">
+            <img src="ice cream.jfif" alt="Ice Cream">
+            <h3>Ice Cream</h3>
+            <p>Vanilla, strawberry, and chocolate flavors.</p>
+            <span>10,000 UZS</span>
+        </div>
+    </div>
+</body>
+</html>
